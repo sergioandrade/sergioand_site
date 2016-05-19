@@ -1,0 +1,82 @@
+* {
+  margin: 0;
+}
+html {
+  box-sizing: border-box;
+  display: table;
+  height: 100%;
+  line-height: normal;
+}
+body {
+  height: 100%;
+  padding: 2vh 10vw;
+  margin: 0;
+  color: #3d2b64;
+  font-family: Arial;
+  vertical-align: middle;
+  display: table-cell;
+  background: #fff;
+  line-height: 1;
+}
+*,
+*:after,
+*:before {
+  box-sizing: inherit;
+}
+h1 {
+  float: left;
+  font-size: 52px;
+  padding: 20px 0 4px 0;
+  letter-spacing: -1px;
+}
+h2 {
+  display: block;
+  float: left;
+  clear: both;
+  font-size: 32px;
+  padding: 0;
+}
+.mailto {
+  color: inherit;
+  float: left;
+  clear: both;
+  padding: 20px 0;
+  font-size: 10px;
+}
+nav {
+  position: absolute;
+  right: 2vw;
+  bottom: 2vh;
+}
+nav a {
+  float: right;
+  text-align: center;
+  margin-right: 10px;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  transition: all 0.2s linear;
+}
+nav a:hover {
+  background: #000;
+  transform: scale(0.9);
+}
+nav a:hover svg {
+  transform: scale(1.4);
+}
+nav a:hover svg path {
+  fill: #fff;
+}
+nav a svg {
+  width: 40px;
+  height: 40px;
+  padding: 10px;
+  transition: all 0.1s linear;
+}
+article {
+  float: left;
+  padding: 20px 0;
+}
+p {
+  color: inherit;
+}
