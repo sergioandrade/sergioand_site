@@ -1,1 +1,2 @@
-# sergioand_site
+# Sergio Andrade
+> It's my personal website :)
