@@ -10,12 +10,16 @@ body
 	height 100%
 	padding: 2vh 10vw
 	margin: 0
-	color: #3d2b64
+	color: #282828
 	font-family: Arial
 	vertical-align: middle
 	display: table-cell
-	background: #fff
+	background: #f0f0f0
 	line-height: 1
+	transition: background-color 2s linear
+	
+a
+	color: inherit
 
 *, *:after,*:before
 	box-sizing: inherit;
@@ -38,11 +42,16 @@ h2
 	clear: both	
 	padding: 20px 0
 	font-size: 10px
-
 nav
 	position: absolute
 	right: 2vw
 	bottom: 2vh
+	@media screen and (max-width: 600px)
+		position: relative
+		right: auto
+		bottom: auto
+		float: left
+		width: 100%
 	a
 		float: right
 		text-align: center
@@ -66,6 +75,8 @@ nav
 
 article
 	float left
+	width: 100%
 	padding: 20px 0
 p
 	color: inherit
+	line-height: 1.4
