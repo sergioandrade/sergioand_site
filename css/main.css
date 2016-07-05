@@ -95,3 +95,43 @@ p {
   color: inherit;
   line-height: 1.4;
 }
+.projects {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  background: #262721;
+  text-align: center;
+  overflow-y: auto;
+  overflow-x: hidden;
+  opacity: 0;
+  transform: translateY(-100%);
+}
+.projects.show {
+  opacity: 1;
+  transform: translateY(0);
+}
+.projects ul {
+  display: block;
+  float: left;
+  list-style: none;
+  padding: 40px;
+}
+.projects ul li {
+  padding: 10px;
+  float: left;
+  clear: both;
+}
+.projects ul li a {
+  display: block;
+  float: left;
+  padding: 6px;
+  color: #f82771;
+  font-family: Courier, monospace;
+  text-decoration: none;
+  font-size: 12px;
+}
+.projects ul li a:hover {
+  color: #66d9ef;
+}

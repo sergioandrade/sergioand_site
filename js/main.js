@@ -56,3 +56,12 @@
 			radomizeColor();
 		}, 1000);
 	}
+function cheets(){
+	var projects = document.getElementById('projects');
+	cheet('o p e n', function () {
+	  projects.className += ' show'; 
+	});
+	cheet('c l o s e', function () {
+	   projects.className = 'projects'; 
+	});
+}
